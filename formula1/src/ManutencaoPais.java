@@ -46,7 +46,7 @@ public class ManutencaoPais extends javax.swing.JDialog {
         jLabel1.setText("Manutenção de Pais");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel3.setText("Sigla:");
+        jLabel3.setText("Pais:");
 
         jLabel4.setText("Nome:");
 
@@ -68,7 +68,7 @@ public class ManutencaoPais extends javax.swing.JDialog {
 
         jButton4.setText("Cancelar");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "BR", "AL", "AM", "AU" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Brasil", "Russia" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox1ActionPerformed(evt);
